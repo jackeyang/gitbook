@@ -30,7 +30,16 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [],
+    "plugins": [
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"网站备案号：粤ICP备<a href=\"http://www.beian.miit.gov.cn\">18034830</a>号",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
     "title": "Sample GitBook",
     "variables": {}
 }

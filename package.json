@@ -4,6 +4,10 @@
   "description": "personal blog power by gitbook",
   "main": "app.js",
   "scripts": {
+    "serve":"gitbook serve public",
+    "build":"gitbook build public",
+    "publish": "pm2 ecosystem.config.js",
+    "stop":"pm2 stop Blog",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
