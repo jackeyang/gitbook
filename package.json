@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "personal blog power by gitbook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackeyang/gitbook.git"
+  },
+  "keywords": [
+    "gitbook",
+    "blog"
+  ],
+  "author": "jackeyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackeyang/gitbook/issues"
+  },
+  "homepage": "https://github.com/jackeyang/gitbook#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0"
+  }
+}
