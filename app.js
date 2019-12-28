@@ -13,3 +13,4 @@ const options = {
 app.use(serve(path.resolve(__dirname, 'public/_book'), options))
 
 app.listen(3000)
+console.log('server is running at 3000')
