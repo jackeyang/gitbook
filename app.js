@@ -5,7 +5,7 @@ const path = require('path')
 const app = new Koa()
 
 const options = {
-    maxage: 60000,
+    maxage: 0,
     index: 'index.html',
     gzip: true
 }
